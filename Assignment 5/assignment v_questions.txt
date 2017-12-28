@@ -1,0 +1,35 @@
+1-Add a new record to Orders table including all columns.
+
+2-Add a new record to Employees table including LastName, FirstName, Title, TitleOfCourtesy, BirthDate, HireDate, Address, City, Country, Extension, Notes, ReportsTo, PhotoPath.
+
+3-Add a new record to Shippers table including CompanyName,Phone.
+
+4-
+CREATE TABLE [dbo].[Categories_backup](
+	[CategoryID] [int] IDENTITY(1,1) NOT NULL,
+	[CategoryName] [nvarchar](15) NOT NULL,
+	[Description] [ntext] NULL,
+	[Picture] [image] NULL,
+ CONSTRAINT [PK_Categories_backup] PRIMARY KEY CLUSTERED 
+(
+	[CategoryID] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
+
+Create a new table by running the code at the top. Then, copy all the records in the Categories table to the Categories_backup table.
+
+5-Update the person's title is Sales Manager, city is Yorkshire whose EmployeeID is which you added person in step 2 from Employees table.
+
+6-Update the ship name to Ave. 5 de Mayo Porlamar from shippers table which company name of customer is GROSELLA-Restaurante from customer table.
+
+7-Update the company name of shippers to Yasar A.S but company name includes 'pp' in any position or  phone of shippers has (313) 555-5735.
+
+8-Update the company name of shippers to Aras Kargo and phone to (503)555-2222 which company name of shippers is Migros.
+
+9-Delete all records of order id is 11078  from Orders table.
+
+10-Delete all records from Categories_backup.
+
+11-Delete the records which quantity is 40 and unit price smaller than 20 from Order Details.
+
+12-Delete the records which their territory dsescription is New York.

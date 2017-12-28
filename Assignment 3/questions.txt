@@ -1,0 +1,47 @@
+﻿1. Write a SQL statement to display SKU and Description.
+
+2. Write a SQL statement to display Warehouse with 
+no duplications.
+
+3. Write a SQL statement to display all data on products having a 
+QuantityOnHand greater than 0.
+
+4. Write a SQL statement to display the SKU, Description, and 
+Warehouse on products
+having QuantityOnHand equal to 0. 
+Sort the results in descending order by Warehouse
+and ascending order of QuantityOnHand.
+
+5. Write a SQL statement to display the SKU and Inventory_Description of all items stored in the
+Seattle, Chicago, or New Jersey warehouse.
+
+6. Write a SQL statement to display the SKU and Inventory_Description of all items not stored in the
+Seattle, Chicago, or New Jersey warehouse. Use NOT IN.
+
+7. Write a SQL statement to show SKU and Inventory_Description for all products having Description
+that includes the word 'Foot'.
+
+8. Write a SQL statement to show SKU and Warehouse for all products having a 'w' in the
+third position from the left in Warehouse.
+
+9. Write a SQL expression to produce a single column called ItemLocation that combines
+the Description, the phrase “is located in”, and Warehouse for all products that have a
+QuantityOnHand greater than 0. Do not be concerned with removing trailing blanks.
+
+10. Write a SQL expression to display the Warehouse and a count of QuantityOnHand,
+grouped by Warehouse. Name the count TotalItemsOnHand and display the results in
+descending order of TotalItemsOnHand.
+Note that “a count of” actually means the “sum” in this context. 
+
+11. Write an SQL statement to show the SKU, SKU_Description, Warehouse 
+for all items stored in a warehouse managed by 'Lucille Smith'. Use a subquery.
+
+12. Write an SQL statement to show the Warehouse and average QuantityOnHand 
+of all items stored in a warehouse managed by 'Lucille Smith'. Use a subquery.
+
+13. Write an SQL statement that uses all of the SQL built-in functions 
+on the QuantityOnHand column. Include meaningful column names in the result.
+
+14. Write an SQL statement to display the WarehouseID and the sum of QuantityOnHand, 
+grouped by WarehouseID. Name the sum TotalItemsOnHand and display the results 
+in descending order of TotalItemsOnHand.

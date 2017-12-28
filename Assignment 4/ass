@@ -1,0 +1,37 @@
+1.Write a SQL statement to display information in Employees.
+
+
+
+2.Write a SQL statement to display employee id, a single column called Name that combines the first name and last name of employees whose birthdate is smaller than 1955-01-01.
+
+
+
+3.Write a SQL statement to display product name, category name which category id equals 2.(Inner Join)
+
+
+
+4.Write a SQL statement to display product name, category name, unit price for all data.(join)
+
+
+
+5.Write a SQL statement to display category name, average of unit price in Order Detail called Average_UnitPrice grouped by category name and ordered by Average_UnitPrice.
+
+
+
+6.Write a SQL statement to display company name started with c.
+
+
+
+7.Write a SQL statement to display company name for all products having a 'c' in the third position from the left in company name.
+
+
+
+8.Write a SQL statement to show number of stocks of products which their category name have 'con' word in any position.
+
+
+
+9.Write a SQL statement to display a single column called Name that combines the first name and last name of employees who live in London.
+
+
+
+10.Write a SQL statement to show all information of products, their category names where discontinued of products equals to 0 ordered by product name.
